@@ -1,0 +1,517 @@
+repo_name: nikhilknick/react-query-essentials
+report_id: 8acdeced950605db741377c93f3016a4
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-19T08:07:37+00:00'
+requested_by: tannerlinsley
+provider: github
+branch: master
+detected_tools_count: 35
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials
+  detection_source: Repo Metadata
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 9.4.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/26
+    - query polling with refetchInterval/app/yarn.lock
+  detection_source: 26 - query polling with refetchInterval/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/25
+    - scroll restoration/app/yarn.lock
+  detection_source: 25 - scroll restoration/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/09
+    - configure query cacheTime/app/yarn.lock
+  detection_source: '09 - configure query cacheTime/app/package.json'
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: '09 - configure query cacheTime/app/.babelrc'
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/09
+    - configure query cacheTime/app/.eslintrc
+  detection_source: '09 - configure query cacheTime/app/.eslintrc'
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/package.json
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/yarn.lock
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/package.json
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: '09 - configure query cacheTime/app/package.json'
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/09
+    - configure query cacheTime/app/yarn.lock
+  detection_source: '09 - configure query cacheTime/app/package.json'
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-config-react-app
+  description: ESLint configuration used by Create React App
+  package_url: https://www.npmjs.com/eslint-config-react-app
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-config-standard-react
+  description: JavaScript Standard Style React/JSX support - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard-react
+  version: 9.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16287/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-flowtype
+  description: Flowtype linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-flowtype
+  version: 4.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 4.2.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/25
+    - scroll restoration/app/yarn.lock
+  detection_source: 25 - scroll restoration/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/01
+    - installation/app/yarn.lock
+  detection_source: 01 - installation/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
+- name: shortid
+  description: Amazingly short non-sequential url-friendly unique id generator
+  package_url: https://www.npmjs.com/shortid
+  version: 2.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16368/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/nikhilknick/react-query-essentials/blob/master/35
+    - mutation basics/app/yarn.lock
+  detection_source: 35 - mutation basics/app/package.json
+  last_updated_by: Tanner Linsley
+  last_updated_on: 2020-07-29 15:11:23.000000000 Z
